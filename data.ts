@@ -6,7 +6,7 @@ export const data =
       "name": "The Witcher 3: Wild Hunt",
       "price": 49.99,
       "img": "/the-witcher-3-wild-hunt.jpg",
-      "platform": "PC",
+      "platform": "Pc",
       "discount": 10
     },
     {
@@ -14,7 +14,7 @@ export const data =
       "name": "Cyberpunk 2077",
       "price": 59.99,
       "img": "/cyberpunk-2077.jpg",
-      "platform": "PC",
+      "platform": "Pc",
       "discount": 15
     },
     {
@@ -22,7 +22,7 @@ export const data =
       "name": "Doom Eternal",
       "price": 39.99,
       "img": "/doom-eternal.jpg",
-      "platform": "PC",
+      "platform": "Pc",
       "discount": 20
     },
     {
@@ -30,7 +30,7 @@ export const data =
       "name": "Assassin's Creed Valhalla",
       "price": 54.99,
       "img": "/assassin-s-creed-valhalla.jpg",
-      "platform": "PC",
+      "platform": "Pc",
       "discount": 25
     },
     {
@@ -38,7 +38,7 @@ export const data =
       "name": "Shadow of the Tomb Raider",
       "price": 34.99,
       "img": "/shadow-of-the-tomb-raider.jpg",
-      "platform": "PC",
+      "platform": "Pc",
       "discount": 30
     },
   
