@@ -2,7 +2,11 @@ import ListOfGames from "@/components/ListOfGames"
 import React from "react"
 
 const page = () => {
-  return <ListOfGames platforms="Nintendo" />
+  return (
+    <main className=" p-6 mt-[20vh] flex flex-col items-center">
+      <ListOfGames platforms="Nintendo" />
+    </main>
+  )
 }
 
 export default page
