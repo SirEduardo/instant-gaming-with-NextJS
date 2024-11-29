@@ -2,16 +2,19 @@
 import { GAMES } from "@/types"
 import React, { useEffect, useState } from "react"
 import { data } from "../../data"
+import { usePathname } from "next/navigation"
 
-const ListOfGames = ({ platforms }: { platforms: string }) => {
+const ListOfGames = () => {
   const [games, setGames] = useState<GAMES[]>([])
 
   useEffect(() => {
     setGames(Object.values(data).flat())
   }, [])
+  const pathname = usePathname()
+  const pathnameWithoutSlash = pathname.replace("/", "")
 
-  const filteredGames = platforms
-    ? games.filter((game) => game.platform.includes(platforms))
+  const filteredGames = pathnameWithoutSlash
+    ? games.filter((game) => game.platform.includes(pathnameWithoutSlash))
     : games
 
   return (
